@@ -1,11 +1,16 @@
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Raleway', sans-serif; */
+:root {
+  --primary-color: #4d5ae5;
+  --secondary-color: #2e2f42;
+  --text-color: #434455;
+  --background-color: #fff;
+  --hover-color: #404bbf;
+}
 /* #region Common */
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #fff;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 a {
   color: currentColor;
@@ -54,18 +59,18 @@ button {
 /* #endregion */
 /* #region header */
 .header-logo .logo-part {
-  color: #2e2f42;
+  color: var(--secondary-color);
 }
 .nav-link {
   font-weight: 500;
 
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--secondary-color);
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .contacts {
@@ -75,36 +80,36 @@ button {
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 /* #endregion */
 /* #region Hero */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--secondary-color);
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: var(--background-color);
 }
 .btn {
-  background-color: #4d5ae5;
+  background-color: var(--primary-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: var(--background-color);
 }
 .btn:hover,
 .btn:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 
 /* #endregion */
@@ -113,12 +118,12 @@ button {
   background-color: #f4f4fd;
 }
 .team-item {
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 /* #endregion */
 /* #region footer */
 .page-footer {
-  background-color: #2e2f42;
+  background-color: var(--secondary-color);
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
