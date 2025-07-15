@@ -67,9 +67,11 @@ button {
 .nav-link:focus {
   color: #404bbf;
 }
-.constacts {
+
+.contacts {
   font-style: normal;
 }
+
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
